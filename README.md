@@ -28,13 +28,15 @@ Acá dejamos el link a la [presentación](https://github.com/underscopeio/labitc
 	yarn
 	```
 
-2. Iniciando el servidor
+3. Iniciar el servidor
 
 	```bash
 	npm run dev
-	# o
+	# ó
 	yarn dev
 	```
+
+4. Abrir en el navegador la dirección http://localhost:3000
 
 ## Pasos
 
@@ -45,6 +47,14 @@ Acá dejamos el link a la [presentación](https://github.com/underscopeio/labitc
 - [Paso 4](./src/pages/demo-4.tsx) - autorizar a compound a acceder a los fondos
 - [Paso 5](./src/pages/demo-5.tsx) - obtener info de la TX
 - [Paso 6](./src/pages/demo-6.tsx) - mintear CDAI
+
+## Desafío: retirar fondos
+
+Te desafiamos a que implementes la funcionalidad de retirar el DAI invertido en Compound. Para esto dejamos el archivo [challenge.tsx](./src/pages/challenge.tsx) para que lo completes. Acá te dejamos algunos consejos:
+
+- Investigá la documentación de compound para ver como se llama el método que necesitamos llamar y sus parámetros
+- No te olvides de conseguir GoerliEth y DAI (que coincida con la dirección de contrato que pusimos más abajo)
+- Una vez hecha la transacción, podés actualizar los valores que se ven en pantalla
 
 ## Direcciones de contratos (Goerli)
 
